@@ -88,14 +88,14 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
                 enim mattis odio in risus nunc.
               </p>
-            </AnimationFun>
-            <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
-                </ActionButton>
+              <div className="relative mt-16">
+                <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+                  <ActionButton setSelectedPage={setSelectedPage}>
+                    Join Now
+                  </ActionButton>
+                </div>
               </div>
-            </div>
+            </AnimationFun>
           </div>
         </div>
       </motion.div>
