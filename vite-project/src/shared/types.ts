@@ -20,3 +20,9 @@ export type Props = {
 export type ChildrenProps = {
   children: React.ReactNode;
 };
+
+export type ClassType = {
+  name: string;
+  description?: string;
+  image: React.ReactNode | string;
+};
